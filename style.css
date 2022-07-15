@@ -1,0 +1,38 @@
+* {
+
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.text {
+    text-align: justify;
+  
+}
+
+.numbers {
+    display: flex;
+    
+}
+
+li {
+    list-style-type:none;
+    margin-left: 40px;
+    border-radius: 50%;
+    
+}
+
