@@ -1,0 +1,102 @@
+* {
+
+}
+
+body {
+    background-color: #202122;
+}
+
+main {
+    
+    
+}
+
+.container {
+
+    margin: auto;
+    display: block;
+    border-radius: 5%;
+    background-color: rgb(39, 36, 31);
+    background: -webkit-radial-gradient(rgb(15, 15, 15), #202122);
+    width: 20%;
+    height: 60%;
+    box-shadow: 0px 0px 10px white;
+    padding: 20px;
+    
+}
+
+.container .front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin: auto;
+    display: inline;
+    
+}
+
+.question {
+    color: white;
+    align-self: flex-start;
+    
+}
+
+.text {
+    text-align: justify;
+    color: white;
+  
+}
+
+.front .numbers {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding: 5%;
+    color: white;
+    margin: auto;
+
+}
+
+.note {
+    background-color: #202122;
+    border-radius: 50%;
+    padding: 10%;
+    margin: 5%;
+}
+
+.note:hover {
+    background-color: #35373a;
+    cursor: pointer;
+}
+
+.note > a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-send {
+    width: 80%;
+    padding: 5%;
+
+     
+}
+
+.button-send button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: orangered;
+    color: white;
+}
+
+.button-send button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+
